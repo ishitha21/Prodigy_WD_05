@@ -2,7 +2,7 @@
 
 This is a simple Weather App created using HTML, CSS, and JavaScript. It allows users to check the current weather conditions for a specific location based on their input or current geolocation.  
 
-**Link to the Website:**   
+**Link to the Website:** [WeatherApp](https://ishitha21.github.io/Prodigy_WD_05/index.html)
 
 ---
 
@@ -14,7 +14,7 @@ This is a simple Weather App created using HTML, CSS, and JavaScript. It allows 
 ---
 
 ### **Screenshots**  
-
+![image](https://github.com/user-attachments/assets/4f3e97e1-392f-4a49-8c9c-dd3a8e95eeda)
 
 ---
 
