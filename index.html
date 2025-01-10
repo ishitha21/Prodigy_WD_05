@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/fluency/48/partly-cloudy-day.png" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+    <!-- Main Section -->
+    <section>
+        <div class="card" id="middle-card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name.." aria-label="City Name">
+                <button aria-label="Search"><img src="Images/search.png" id="search-icon" alt="Search"></button>
+            </div>
+
+            <div class="error">
+                <img src="Images/error.png" alt="Error">
+                <p>Invalid City Name..</p>
+            </div>
+
+            <div class="weather" id="card1">
+                <h3 class="date"></h3>
+                <img src="Images/drizzle.png" class="weather-icon" alt="Weather Icon">
+                <h4 class="weather-status">Raining</h4>
+                <h1 class="temp">22&deg;C</h1>
+                <h2 class="city">Karachi</h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="Images/humidity.png" alt="Humidity">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Images/wind.png" alt="Wind">
+                        <div>
+                            <p class="wind">15 Km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forecast Section -->
+        <div class="forecast" id="forecast"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Developed by Ishitha</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
